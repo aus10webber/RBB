@@ -47,6 +47,7 @@ This script has **3 Required** flags:
   * *--db* -- BLAST database that was created in step 1. This database should be the exact same as the one queried against in step 1.
 
 Example of this code:
+
         python.exe get_fastas.py --F \..\..\BLASTRESULT.txt --d \..\..\RBB_outputs --db \..\..\blastdb.fna
  
 This will provide **2 output files**:
