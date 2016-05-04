@@ -13,7 +13,7 @@ Here are the files and their contents. All output files have been uploaded for p
   * **Results** -- directory containing expected result files
 
 
-WORKFLOW
+#WORKFLOW
 
 **For ease, These are broken up into the steps that are listed in the RBB/README.md**
 
