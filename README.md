@@ -22,5 +22,5 @@ RBB has 4 main steps:
 
 #1
 Make a BLAST database using the makeblastdb command from BLAST+
-| makeblastdb -dbtype nucl -in *input_fasta -parse_seqids -hash_index
+  makeblastdb -dbtype nucl -in *input_fasta -parse_seqids -hash_index
 
