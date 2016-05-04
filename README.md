@@ -71,3 +71,6 @@ Use RBH to compare the two outputs. This script can be found [here] (https://git
 
 Per the creator/host of the RBH script, Peter Cock, Please cite the following paper: 
 NCBI BLAST+ integrated into Galaxy. P.J.A. Cock, J.M. Chilton, B. Gruening, J.E. Johnson, N. Soranzo *GigaScience* 2015, 4:39 DOI: ttp://dx.doi.org/10.1186/s13742-015-0080-7
+
+This code was optimized to run using Python 2.7, however, this author suggests upgrading the script for use in Python 3.5.
+To do this use the 2to3.py script that is automatically installed with Anaconda. For more information please visit [here] (https://docs.python.org/2.7/library/2to3.html).
