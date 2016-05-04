@@ -13,7 +13,7 @@ RBB also requires [BioPython] (http://biopython.org/wiki/Documentation) to be in
 
 RBB also requires the [BLAST+ suite] (https://blast.ncbi.nlm.nih.gov/Blast.cgi?PAGE_TYPE=BlastDocs&DOC_TYPE=Download) to be installed and on your local PATH. NCBI BLAST+ tools can be found at: 
 
-  *BLAST+: architecture and applications. C. Camancho et al. *BMC Bioinformatics* 2009, 10:421.DOI:http://dx.doi.org/10.1186/1471-2105-10-421
+  * BLAST+: architecture and applications. C. Camancho et al. *BMC Bioinformatics* 2009, 10:421.DOI:http://dx.doi.org/10.1186/1471-2105-10-421
 
 The RBB repository also includes a shell script for use on unix systems to create a database and conduct a BLAST. This author recommends not running a large BLAST on your local computer as the memory requirements can get quite large for these databases.
 
