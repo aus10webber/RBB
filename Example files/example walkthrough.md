@@ -3,9 +3,13 @@
 This will provide a walkthrough with the given files.
 
 Here are the files and their contents. All output files have been uploaded for peace of mind, but only 3 files are required to run this.
+
 *GOS.GS044.fna* -- BLAST formatted database from one GOS sampling site
+
 *ecoli.fna* -- fasta file containing sequence of *Escherichia coli* O157:H7 str. Sakai chromosome, complete genome
+
 *example_ecoli_BLAST* -- conatains BLASTn results of ecoli.fna against GOS.GS044.fna
+
 **Results** -- directory containing expected result files
 
 
