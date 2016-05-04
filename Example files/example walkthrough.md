@@ -15,7 +15,7 @@ Here are the files and their contents. All output files have been uploaded for p
 
 WORKFLOW
 
-** For ease, These are broken up into the steps that are listed in the RBB/README.md**
+**For ease, These are broken up into the steps that are listed in the RBB/README.md**
 
 
 **Step 1** 
