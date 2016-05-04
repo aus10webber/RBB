@@ -22,6 +22,8 @@ USAGE
 
 RBB has 4 main steps:
 
+For examples, please see example walkthrough.md
+
 #1
 Make a BLAST database from a file containing fasta sequences using the makeblastdb command from the BLAST+ suite.
 
