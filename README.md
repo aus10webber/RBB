@@ -65,7 +65,7 @@ Use the same BLASTn script from **step 1** but change the database.
 The important thing here is that the output is in fasta format.
 
 #4
-Use RBH to compare the two outputs. This script can be found [here] (https://github.com/peterjc/galaxy_blast/tree/master/tools/blast_rbh).
+Use RBH to compare the two outputs. This Repository is hosted on GitHub and can be found [here] (https://github.com/peterjc/galaxy_blast/tree/master/tools/blast_rbh).
 
 ###Citation
 
