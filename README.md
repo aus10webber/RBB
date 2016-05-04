@@ -37,3 +37,23 @@ This requires **3 inputs**:
   * *result_file* -- This will be the name of the file the BLAST results will print to.
 
         blastn -query *query sequence* -task blastn -db *new_db* - out *result_file* -outfmt 6
+
+#2
+Get fasta sequences back from top hits retured from Step 1. For this, use the **get_fastas.py** script.
+
+This script has **3 Required** flags:
+  * *--F* -- BLAST results from step 1. It is important that the format for this output is tab delimited without headers (option 6)
+  * *--d* -- Path to directory that you would like your output files sent to. Program will create a folder within called **RBB**
+  * *--db* -- BLAST database that was created in step 1. This database should be the exact same as the one queried against in step 1.
+
+Example of this code:
+        python.exe get_fastas.py --F \..\..\BLASTRESULT.txt --d \..\..\RBB_outputs --db \..\..\blastdb.fna
+ 
+This will provide **2 output files**:
+
+  * **topnames.txt** -- File contains the names of the top BLAST results
+  * **tophits.txt** -- File contains the sequences of the top hits 
+
+This will also print the path to these files, and print the number of sequence objects in your database.
+
+
