@@ -47,7 +47,7 @@ Get fasta sequences back from top hits retured from Step 1. For this, use the **
 
 This script has **3 Required** flags:
   * *--F* -- BLAST results from step 1. It is important that the format for this output is tab delimited without headers (option 6)
-  * *--d* -- Path to directory that you would like your output files sent to. Program will create a folder within called **RBB**
+  * *--directory* -- Path to directory that you would like your output files sent to. Program will create a folder within called **RBB**
   * *--db* -- BLAST database that was created in step 1. This database should be the exact same as the one queried against in step 1.
 
 Example of this code:
