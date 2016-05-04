@@ -2,7 +2,12 @@
 
 This will provide a walkthrough with the given files.
 
-Here are the files and their contents. All output files have been uploaded for ease, but only 3 files are required to run this.
+Here are the files and their contents. All output files have been uploaded for peace of mind, but only 3 files are required to run this.
+*GOS.GS044.fna* -- BLAST formatted database from one GOS sampling site
+*ecoli.fna* -- fasta file containing sequence of *Escherichia coli* O157:H7 str. Sakai chromosome, complete genome
+*example_ecoli_BLAST* -- conatains BLASTn results of ecoli.fna against GOS.GS044.fna
+**Results** -- directory containing expected result files
+
 
 WORKFLOW
 ** For ease, These are broken up into the steps that are listed in the RBB/README.md**
@@ -38,5 +43,6 @@ WORKFLOW
 **Step 4**
 
   * Use RBH to compare 2 outputs
+
                  rbh_35.py \..\secondblast_example.txt \..\RBB\tophits.txt -a nucl -t blastn -i 70 -c 50 -o \..\RBB\Ecoli_RBBtest.tsv
 
