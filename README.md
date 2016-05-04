@@ -52,9 +52,15 @@ Example of this code:
  
 This will provide **2 output files**:
 
-  * **topnames.txt** -- File contains the names of the top BLAST results
-  * **tophits.txt** -- File contains the sequences of the top hits 
+  * *topnames.txt* -- File contains the names of the top BLAST results
+  * *tophits.txt* -- File contains the sequences of the top hits 
 
 This will also print the path to these files, and print the number of sequence objects in your database.
 
+#3 
+BLAST query sequence against another database (i.e. RefSeq)
+Use the same BLASTn script from **step 1** but change the database.
+The important thing here is that the output is in fasta format.
 
+#4
+Use RBH to compare the two outputs. This script can be found [here] (https://github.com/peterjc/galaxy_blast/tree/master/tools/blast_rbh)
