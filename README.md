@@ -2,7 +2,7 @@
 Reciprocal Best Blast of GOS database
 ========
 
-RBB is a program designed to perform a Reciprocal Best Blast against a given BLAST formatted database. This code has been optimized to work with the Global Ocean Sampling Expedition [GOS] (http://www.jcvi.org/cms/research/projects/gos/overview) and Tara (http://ocean-microbiome.embl.de/companion.html) datasets. 
+RBB is a program designed to perform a Reciprocal Best Blast against a given BLAST formatted database. This code has been optimized to work with the Global Ocean Sampling Expedition [GOS] (http://www.jcvi.org/cms/research/projects/gos/overview) and [Tara] (http://ocean-microbiome.embl.de/companion.html) datasets. 
 
 INSTALLATION
 ------------  
