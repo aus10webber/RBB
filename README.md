@@ -77,5 +77,9 @@ NCBI BLAST+ integrated into Galaxy. P.J.A. Cock, J.M. Chilton, B. Gruening, J.E.
 This code was optimized to run using Python 2.7, however, this author suggests upgrading the script for use in Python 3.5.
 To do this use the 2to3.py script that is automatically installed with Anaconda. For more information please visit [here] (https://docs.python.org/2.7/library/2to3.html).
 
+To convert script from Python version 2.7 to 3.5, use the following script:
+
+         python.exe \..\Anaconda3\Tools\scripts\2to3.py -w python.py
+
 #5 
 Future Directions will be to include a fragment recruitment script to produce graphical representations of data.
