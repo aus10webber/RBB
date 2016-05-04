@@ -69,7 +69,7 @@ The important thing here is that the output is in fasta format.
 #4
 Use RBH to compare the two outputs. This Repository is hosted on GitHub and can be found [here] (https://github.com/peterjc/galaxy_blast/tree/master/tools/blast_rbh).
 
-#####Citation
+####Citation
 
 Per the creator/host of the RBH script, Peter Cock, Please cite the following paper: 
 NCBI BLAST+ integrated into Galaxy. P.J.A. Cock, J.M. Chilton, B. Gruening, J.E. Johnson, N. Soranzo *GigaScience* 2015, 4:39 DOI: ttp://dx.doi.org/10.1186/s13742-015-0080-7
