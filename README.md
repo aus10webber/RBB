@@ -11,7 +11,9 @@ RBB was written in Python 3. Python was installed using the [Anaconda] (https://
 
 RBB also requires [BioPython] (http://biopython.org/wiki/Documentation) to be installed.
 
-RBB also requires the [BLAST+ suite] (https://blast.ncbi.nlm.nih.gov/Blast.cgi?PAGE_TYPE=BlastDocs&DOC_TYPE=Download) to be installed and on your local PATH.
+RBB also requires the [BLAST+ suite] (https://blast.ncbi.nlm.nih.gov/Blast.cgi?PAGE_TYPE=BlastDocs&DOC_TYPE=Download) to be installed and on your local PATH. NCBI BLAST+ tools can be found at: 
+
+BLAST+: architecture and applications. C. Camancho et al. *BMC Bioinformatics* 2009, 10:421. DOI:http://dx.doi.org/10.1186/1471-2105-10-421
 
 The RBB repository also includes a shell script for use on unix systems to create a database and conduct a BLAST. This author recommends not running a large BLAST on your local computer as the memory requirements can get quite large for these databases.
 
@@ -67,5 +69,5 @@ Use RBH to compare the two outputs. This script can be found [here] (https://git
 
 ###Citation
 
-Please cite the following paper: 
+Per the creator/host of the RBH script, Peter Cock, Please cite the following paper: 
 NCBI BLAST+ integrated into Galaxy. P.J.A. Cock, J.M. Chilton, B. Gruening, J.E. Johnson, N. Soranzo *GigaScience* 2015, 4:39 DOI: ttp://dx.doi.org/10.1186/s13742-015-0080-7
