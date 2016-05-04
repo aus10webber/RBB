@@ -21,7 +21,10 @@ USAGE
 RBB has 4 main steps:
 
 #1
-Make a BLAST database using the makeblastdb command from the BLAST+ suite.
+Make a BLAST database from a file containing fasta sequences using the makeblastdb command from the BLAST+ suite.
 
-    makeblastdb -dbtype nucl -in *input_fasta* -parse_seqids -hash_index
+    makeblastdb -dbtype nucl -in *input_fasta_file* -parse_seqids -hash_index
 
+Use BLASTn to search a query sequence against the newly created database.
+
+        blastn -query *query sequence* -task blastn -db *new_db* - out *result_file* -outfmt 6
